@@ -1,0 +1,132 @@
+.bg-img {
+  background-image: url(https://genetic.vn/wp-content/uploads/2021/11/khoa-hoc-lap-trinh-front-end.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-green {
+  background-color: #34f3d4;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.payment {
+  border: 1px solid #c3b0b0;
+  height: 280px;
+  border-radius: 20px;
+  background: #fff;
+}
+.payment_header--success,
+.payment_header--fail {
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.payment_header--success {
+  background: rgb(22, 235, 6);
+}
+
+.payment_header--fail {
+  background: rgb(234, 15, 15);
+}
+
+.check {
+  margin: 0px auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.check i {
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.content a {
+  width: 200px;
+  height: 35px;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  background: rgb(42, 15, 215);
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: none;
+  background: rgb(111, 205, 228);
+}
+
+.card--hover {
+  background-color: #f0e409;
+  border-radius: 50px;
+  border-width: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: #d0f30b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  height: 50px;
+  transition: all 200ms;
+}
+
+.card--hover:hover,
+card-box:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.card-box {
+  background-color: #c2fbd7;
+  border-radius: 50px;
+  border-width: 0;
+  color: #e9f0e9;
+  cursor: pointer;
+
+  transition: all 200ms;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+a {
+  text-decoration: none !important;
+}
+.wrap-text {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.shadow-Navbar {
+  font-family: Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.onActive {
+  color: white !important;
+  background-color: #2638d5 !important;
+}
+.onHover:hover {
+  color: rgb(33, 110, 203) !important;
+}
